@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="org.apache.cordova.plugins"
+           id="org.apache.cordova.pdfcreator"
       version="0.1.0">
     <name>PdfCreator</name>
     <description>Phonegap PdfCreator Plugin</description>
@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="PdfCreator">
-                <param name="android-package" value="org.apache.cordova.plugins.PdfCreator"/>
+                <param name="android-package" value="org.apache.cordova.pdfcreator.PdfCreator"/>
             </feature>
         </config-file>
  
-        <source-file src="src/android/PdfCreator.java" target-dir="org.apache.cordova.plugins" />      
+        <source-file src="src/android/PdfCreator.java" target-dir="org.apache.cordova.pdfcreator" />      
      </platform>          
 </plugin>
