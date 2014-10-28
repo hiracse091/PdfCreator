@@ -16,7 +16,7 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Calendar">
+            <feature name="PdfCreator">
                 <param name="android-package" value="org.apache.cordova.plugins.PdfCreator"/>
             </feature>
         </config-file>
