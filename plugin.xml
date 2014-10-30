@@ -21,6 +21,6 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/PdfCreator.java" target-dir="org.apache.cordova.pdfcreator" />      
+        <source-file src="src/android/PdfCreator.java" target-dir="src/org/apache/cordova/pdfcreator" />      
      </platform>          
 </plugin>
